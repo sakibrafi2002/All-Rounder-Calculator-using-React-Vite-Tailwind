@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
@@ -18,12 +19,12 @@ function Home() {
             </u>
           </h1>
           <div className="text-center space-y-4">
-            <a
-              href="calculator.html"
+            <NavLink
+              to="/BasicCalculator"
               className="block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out" 
             >
               <h2 className="text-xl font-bold">1. Basic Calculator</h2>
-            </a>
+            </NavLink>
             <a
               href="bmi.html"
               className="block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out"
