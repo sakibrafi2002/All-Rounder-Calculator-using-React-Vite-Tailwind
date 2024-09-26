@@ -25,12 +25,12 @@ function Home() {
             >
               <h2 className="text-xl font-bold">1. Basic Calculator</h2>
             </NavLink>
-            <a
-              href="bmi.html"
+            <NavLink
+              to="/BMICalculator"
               className="block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out"
             >
               <h2 className="text-xl font-bold">2. BMI Calculator</h2>
-            </a>
+            </NavLink>
             <a
               href="age calculator.html"
               className="block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out"
