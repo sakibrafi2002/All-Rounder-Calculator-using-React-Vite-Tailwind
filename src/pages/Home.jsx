@@ -31,12 +31,12 @@ function Home() {
             >
               <h2 className="text-xl font-bold">2. BMI Calculator</h2>
             </NavLink>
-            <a
-              href="age calculator.html"
+            <NavLink
+              to="/AgeCalculator"
               className="block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out"
             >
               <h2 className="text-xl font-bold">3. Age Calculator</h2>
-            </a>
+            </NavLink>
           </div>
           {/* Footer Section */}
           <footer className="mt-8 text-center text-gray-600">

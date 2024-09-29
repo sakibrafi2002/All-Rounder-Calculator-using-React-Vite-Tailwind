@@ -51,7 +51,7 @@ const BMICalculator = () => {
       style={{
         backgroundImage:
           "url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg')",
-        backgroundSize: "cover",
+          backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >

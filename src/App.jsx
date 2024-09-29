@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import BasicCalculator from "./pages/BasicCalculator";
 import BMICalculator from "./pages/BMICalculator";
+import AgeCalculator from "./pages/AgeCalculator";
 function App() {
   return (
     <>
@@ -11,7 +12,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/BasicCalculator" element={<BasicCalculator />} />
           <Route path="/BMICalculator" element={<BMICalculator/>} />
-
+          <Route path="/AgeCalculator" element={<AgeCalculator/>} />
         </Routes>
       </BrowserRouter>
     </>
